@@ -1,6 +1,8 @@
 
 import bannerImage1 from '../../assets/paralox-image.jpeg'
 import bannerImage2 from '../../assets/paralox-image1.jpeg'
+import searchicon from '../../assets/Icons/search.png'
+import searchText from '../../assets/Icons/searchIconmain.png'
 const Banner = () => {
     return (
         <div>
@@ -13,7 +15,30 @@ const Banner = () => {
                     <div>
                         <h1 className="text-7xl font-bold">Adventure &</h1>
                         <p className="py-6 text-7xl font-bold">Experience The Travel !</p>
-                        <button className="btn btn-primary">Get Started</button>
+                        <div className='flex gap-10 justify-center p-5 border rounded bg-white'>
+                            <div className='flex gap-2'>
+                                
+                                <div>
+                                    <img className='h-10' src={searchText} alt="" />
+                                </div>
+                                <div>
+                                    <p>Search </p>
+                                    <input type="text" placeholder="Search here" className='border rounded-xl'/>
+                                </div>
+                            </div>
+                            <div className='flex gap-2'>
+                                <div>
+                                    <img className='h-10' src={searchicon} alt="" />
+                                </div>
+                                <div>
+                                    <p>Destinations</p>
+                                    <p>All Destinations</p>
+                                </div>
+                            </div>
+                            <div>
+                                <button className="btn btn-success">Search</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
