@@ -2,6 +2,7 @@ import Banner from "./Banner/Banner";
 import Featured from "./Featured/Featured";
 import FeatuedHighLight from "./FeaturedHighLight/FeatuedHighLight";
 import Trip from "./Trip/Trip";
+import TripSearch from "./TripSearch/TripSearch";
 
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
             <Featured></Featured>
             <FeatuedHighLight></FeatuedHighLight>
             <Trip></Trip>
+            <TripSearch></TripSearch>
         </div>
     );
 };
