@@ -4,11 +4,8 @@ import location from '../../assets/Icons/location.gif'
 import mountain from '../../assets/Icons/mountain.gif'
 const FeatuedHighLight = () => {
     return (
-       
-                
-
-            
-                <div className="flex gap-5 justify-center mb-5">
+       <div className='pl-14 pr-14'>
+         <div className="flex gap-5 justify-center mb-5">
                     <div className="hero border-2 rounded-xl" style={{backgroundImage: 'url(https://i.ibb.co/hYM9S6m/featured-Section2.jpg)'}}>
                         <div className="hero-overlay bg-opacity-20"></div>
                         <div className="hero-content text-neutral-content">
@@ -46,6 +43,11 @@ const FeatuedHighLight = () => {
                         </div>
                     </div>
                 </div>
+       </div>
+                
+
+            
+               
 
     );
 };

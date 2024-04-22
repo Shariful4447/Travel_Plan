@@ -2,7 +2,8 @@
 
 const Featured = () => {
     return (
-        <div className="mt-5 mb-5 hero" style={{backgroundImage: 'url(https://i.ibb.co/DzvZDy5/home-bg.png)'}}>
+        <div className="pl-12 pr-12">
+            <div className="mt-5 mb-5 hero " style={{backgroundImage: 'url(https://i.ibb.co/DzvZDy5/home-bg.png)'}}>
             <div className=" hero-overlay bg-opacity-80"></div>
             <div>
                 <p className="text-2xl text-white">Dream Vacation Destination</p>
@@ -13,6 +14,7 @@ const Featured = () => {
                 </p>
                 <button className="btn btn-success text-xl mt-5 mb-5">More Info</button>
             </div>
+        </div>
         </div>
     );
 };

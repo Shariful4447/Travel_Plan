@@ -2,7 +2,7 @@
 
 const Destinations = () => {
     return (
-        <div className="mb-5">
+        <div className="mb-5 pl-12 pr-12">
             <div>
                 <p className="text-xl mb-2">Next Adventure</p>
                 <h2 className="text-3xl font-bold mb-2">Travel Destinations <br />
@@ -14,8 +14,8 @@ const Destinations = () => {
             </div>
             <div className="grid grid-cols-4 gap-5">
                 <div className="">
-                    <div className="hero h-96 " style={{backgroundImage: 'url(https://i.ibb.co/Bw3gjVS/chaina.jpg)'}}>
-                    <div className="hero-overlay bg-opacity-60"></div>
+                    <div className="hero h-96 border rounded-2xl " style={{backgroundImage: 'url(https://i.ibb.co/Bw3gjVS/chaina.jpg)'}}>
+                    <div className="hero-overlay border rounded-2xl bg-opacity-60"></div>
                     <div className="hero-content mt-56 text-center text-neutral-content">
                         <div className="max-w-md">
                         <h1 className="mb-2 text-5xl font-bold">China</h1>
@@ -27,8 +27,8 @@ const Destinations = () => {
 
                 </div>
                 <div>
-                    <div className="hero h-96" style={{backgroundImage: 'url(https://i.ibb.co/WvwrRfc/greece.jpg)'}}>
-                    <div className="hero-overlay bg-opacity-60"></div>
+                    <div className="hero border rounded-2xl h-96" style={{backgroundImage: 'url(https://i.ibb.co/WvwrRfc/greece.jpg)'}}>
+                    <div className="hero-overlay border rounded-2xl bg-opacity-60"></div>
                     <div className="hero-content mt-56 text-center text-neutral-content">
                         <div className="max-w-md">
                         <h1 className="mb-2 text-5xl font-bold">Greece</h1>
@@ -40,8 +40,8 @@ const Destinations = () => {
 
                 </div>
                 <div>
-                    <div className="hero h-96" style={{backgroundImage: 'url(https://i.ibb.co/rvMDhPS/egypt.jpg)'}}>
-                    <div className="hero-overlay bg-opacity-60"></div>
+                    <div className="hero border rounded-2xl h-96" style={{backgroundImage: 'url(https://i.ibb.co/rvMDhPS/egypt.jpg)'}}>
+                    <div className="hero-overlay border rounded-2xl bg-opacity-60"></div>
                     <div className="hero-content mt-56 text-center text-neutral-content">
                         <div className="max-w-md">
                         <h1 className="mb-2 text-5xl font-bold">Egypt</h1>
@@ -52,8 +52,8 @@ const Destinations = () => {
                     </div>
                 </div>
                 <div>
-                    <div className="hero h-96" style={{backgroundImage: 'url(https://i.ibb.co/BGdrrZn/france.jpg)'}}>
-                    <div className="hero-overlay bg-opacity-60"></div>
+                    <div className="hero border rounded-2xl h-96" style={{backgroundImage: 'url(https://i.ibb.co/BGdrrZn/france.jpg)'}}>
+                    <div className="hero-overlay border rounded-2xl bg-opacity-60"></div>
                     <div className="hero-content mt-56 text-center text-neutral-content">
                         <div className="max-w-md">
                         <h1 className="mb-2 text-5xl font-bold">France</h1>

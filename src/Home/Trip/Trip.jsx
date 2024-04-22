@@ -8,7 +8,7 @@ import contact from '../../assets/Icons/email.png'
 import locationicon from '../../assets/Icons/navigation.png'
 const Trip = () => {
     return (
-        <div className="mb-5 grid grid-cols-3 gap-5 place-items-center">
+        <div className="mb-5 grid grid-cols-3 gap-5 place-items-center pl-12 pr-12">
             <div className="card [500px] bg-base-100 shadow-xl">
                 <figure><img src={trip3} alt="Shoes" /></figure>
                 <div className='flex justify-evenly m-5 border rounded bg-slate-200 p-2'>
