@@ -3,7 +3,7 @@ import search from '../../assets/Icons/search 2.png'
 import locationIcon from '../../assets/Icons/map.png'
 const TripSearch = () => {
     return (
-        <div className="bg-[#F2F2F2] text-center mb-5">
+        <div className="bg-[#F2F2F2] text-center mb-5 h-[380px]">
             <div className="">
                 <h2 className="text-2xl m-2">Choose your Trip</h2>
                 <h3 className="text-5xl m-5 font-bold">Start your Vacation Now</h3>
