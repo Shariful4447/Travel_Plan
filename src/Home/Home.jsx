@@ -1,4 +1,5 @@
 import Banner from "./Banner/Banner";
+import Brand from "./Brand/Brand";
 import Destinations from "./Destinations/Destinations";
 import Featured from "./Featured/Featured";
 import FeatuedHighLight from "./FeaturedHighLight/FeatuedHighLight";
@@ -17,6 +18,7 @@ const Home = () => {
             <TripSearch></TripSearch>
             <Destinations></Destinations>
             <PromotionalText></PromotionalText>
+            <Brand></Brand>
         </div>
     );
 };
