@@ -54,10 +54,22 @@ const ReviewSection = () => {
                     <div>
                         <div className="card w-96 bg-[#1BBC9B] text-primary-content">
                             <div className="card-body">
-                                <h2 className="card-title">Card title!</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
-                                <div className="card-actions justify-end">
-                                <button className="btn">Buy Now</button>
+                                
+                                <p>This travel agency made my dream trip to
+                                    Europe a reality. They worked with me
+                                    every step of the way to plan the itinerary.</p>
+                                <div className=" flex gap-10">
+                                    <div>
+                                        <div className="avatar">
+                                        <div className="w-16 rounded-full">
+                                            <img src={avatar_profile2} />
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p>Jennifer and Mark</p>
+                                        <p>San Francisco</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
