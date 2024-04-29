@@ -5,6 +5,7 @@ import Featured from "./Featured/Featured";
 import FeatuedHighLight from "./FeaturedHighLight/FeatuedHighLight";
 import PromotionalText from "./PromotionalText/PromotionalText";
 import ReviewSection from "./ReviewSection/ReviewSection";
+import TravelPackage from "./TravelPackage/TravelPackage";
 import Trip from "./Trip/Trip";
 import TripSearch from "./TripSearch/TripSearch";
 
@@ -21,6 +22,7 @@ const Home = () => {
             <PromotionalText></PromotionalText>
             <Brand></Brand>
             <ReviewSection></ReviewSection>
+            <TravelPackage></TravelPackage>
         </div>
     );
 };
